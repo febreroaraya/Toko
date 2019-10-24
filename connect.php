@@ -1,8 +1,19 @@
 <?php
-$host = 'localhost';
-$user ='root';
-$pass = '';
-$db = 'toko';
-mysql_connect($host,$user,$pass) or die (mysql_error());
-mysql_select_db('toko');
++
+$koneksi = mysqli_connect("127.0.0.1","root","","toko");
+
+// Check connection
+if (mysqli_connect_errno()){
+	echo "Koneksi database gagal : " . mysqli_connect_error();
+}
++
+?>
+<?php 
++$koneksi = mysqli_connect("127.0.0.1","root","","db_smk");
+ 
+// Check connection
+if (mysqli_connect_errno()){
+	echo "Koneksi database gagal : " . mysqli_connect_error();
+}
+ 
 ?>
