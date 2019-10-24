@@ -6,7 +6,7 @@ include "connect.php";
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
 		<title>Toko Online Sederhana</title>
-		<link href="style/style.css" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
 		<div id="outline">
